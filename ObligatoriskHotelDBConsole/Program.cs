@@ -14,7 +14,8 @@ namespace ObligatoriskHotelDBConsole
         {
             ManageFacilities manageFacilities = new ManageFacilities();
             #region Read
-            //manageFacilities.ReadFacilities();
+            manageFacilities.ReadFacilities();
+            Console.ReadLine();
             #endregion
 
             #region Create
@@ -29,9 +30,8 @@ namespace ObligatoriskHotelDBConsole
             #region Update
             //Facility facilityObject = new Facility() { Facility_Id = 4, Name = "McDonalds" };
             //manageFacilities.UpdateFacility(facilityObject.Facility_Id, facilityObject);
-            manageFacilities.ReadFacilities();
+            //manageFacilities.ReadFacilities();
             #endregion
-
 
         }
     }
